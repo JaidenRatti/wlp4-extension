@@ -2,7 +2,7 @@
   "name": "wlp4-extension",
   "displayName": "WLP4 Extension Pack",
   "description": "Syntax highlighting for WLP4, the pseudo-C language used in CS241 at the University of Waterloo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "jaiden-ratti",
   "repository": {
     "type": "git",
