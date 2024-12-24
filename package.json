@@ -11,6 +11,8 @@
   "engines": {
     "vscode": "^1.96.0"
   },
+    "icon":"wlp4.png"
+  ,
   "categories": [
     "Programming Languages"
   ],
