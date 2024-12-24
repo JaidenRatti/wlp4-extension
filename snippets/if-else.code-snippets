@@ -1,0 +1,26 @@
+{
+		"If-Else Block": {
+		  "prefix": "if",
+		  "body": [
+			"if ($1) {",
+			"    $2",
+			"} else {",
+			"    $3",
+			"}"
+		  ],
+		  "description": "Insert an if-else block"
+		},
+		"Int Function with Initialization": {
+			"prefix": "function", 
+			"body": [
+			  "int ${1:functionName}(${2:parameters}) {",
+			  "    //Initialize variables first!",
+			  "    $3",
+			  "    return;",
+			  "}"
+			],
+			"description": "Insert an int function template with initialization and return statement"
+		  }
+	  
+	  
+}

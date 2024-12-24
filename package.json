@@ -1,0 +1,36 @@
+{
+  "name": "wlp4-extension",
+  "displayName": "WLP4 Extension Pack",
+  "description": "Syntax highlighting for WLP4, the pseudo-C language used in CS241 at the University of Waterloo",
+  "version": "1.0.0",
+  "publisher": "jaiden-ratti",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaidenRatti/wlp4-extension"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "wlp4",
+      "aliases": ["wlp4", "wlp4"],
+      "extensions": [".wlp4"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "wlp4",
+      "scopeName": "source.wlp4",
+      "path": "./syntaxes/wlp4.tmLanguage.json"
+    }], 
+    "snippets": [
+      {
+        "language":"wlp4",
+        "path":"./snippets/if-else.code-snippets"
+      }
+    ]
+  }
+}

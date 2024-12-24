@@ -1,0 +1,38 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	
+		"scopeName": "source.wlp4",
+		"patterns": [
+
+			{
+				"name": "keyword.control.wlp4",
+				"match": "\\b(if|else|return|while|wain)\\b"
+			  },
+			  {
+				"name": "keyword.special.wlp4",
+				"match": "\\b(new|delete|println|putchar|getchar)\\b"
+			  },
+			  {
+				"name": "entity.name.function.wlp4",
+				"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(?=\\()"
+			  },
+		  {
+			"name": "storage.type.wlp4",
+			"match": "\\b(int|NULL|int*)\\b"
+		  },
+		  {
+			"name": "variable.other.wlp4",
+			"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+		  },
+		  {
+			"name": "constant.numeric.wlp4",
+			"match": "\\b\\d+\\b"
+		  },
+		  {
+			"name": "comment.line.double-slash.wlp4",
+			"begin": "//",
+			"end": "$"
+		  }
+		]
+	  }
+	  
